@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="weather-card">
+      <div class="search-container">
+      <input class="search-bar" type="text" placeholder="Enter city name" spellcheck="false">
+      <img src="Images/search-icon.jpg" alt="search" class="search-icon">
+      </div>
+
+        <div class="display">
+
+        <div class="weather-info-container">
+        <div class="weather-info ">
+          <h2 class="city">Odisha</h2>
+          <h1 class="temp">27°C</h1>
+          <p class="max">Temp max: 35°C </p>
+          <p class="min">Temp min: 24°C</p>
+        </div>
+
+        <div class="description-info js-description-info">
+          <img src="Images/clouds.png" class="images js-weather-icon"> 
+          <h2 class="conditions">Cloudy </h4>
+          <p class="feels">feels like 32°C</p>
+          <p class="description"></p>
+        </div>
+      </div>
+
+      <div class="other-info ">
+      <div class="humidity-container">
+        <img src="Images/humidity-new2.webp" class="images" alt="Humidity">
+        <p class="Humidity-info"> Humidity: 75%</p>
+      </div>
+
+      <div class="wind-container ">
+        <img src="Images/wind.jpg" class="images" alt="wind">
+        <p class="js-wind"> Wind: 24 km/h </p>
+      </div>
+
+      <div class="pressure-container">
+        <img src="Images/pressure.webp" class="images" alt="pressure">
+        <p class="pressure-info"> pressure : 1010 hPa</p>
+      </div>
+
+      <div class="sealevel-container">
+        <img src="Images/sealevel.webp" class="images" alt="pressure">
+        <p class="sealevel-info"> Sea level : 1010</p>
+      </div>
+    </div>
+
+    </div>
+    </div>
+  </body>
+  <script src="weather.js"></script>
+
+</html>
